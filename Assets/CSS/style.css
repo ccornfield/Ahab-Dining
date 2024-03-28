@@ -1,8 +1,18 @@
 
 /* General Use */
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
 body{
     font-family: 'Mulish', sans-serif;
-    margin: 0;
+    margin:0;
+    padding:0;
+    border:0;
     background-color: #fafafa;
 }
 
@@ -55,3 +65,32 @@ a:hover{
 .active{
     border-bottom: #fafafa 2px solid;
 }
+
+/* Hero Image */
+
+.hero-container{
+    height:700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image{
+    height:700px;
+    width: 100%;
+}
+
+.hero-image-text{
+    font-size: 150%;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(124, 152, 179, 0.7);
+    bottom:30px;
+    left:150px;
+    position:absolute;
+}
+
+/* Offers */
