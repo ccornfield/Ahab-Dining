@@ -30,6 +30,10 @@ ul{
     text-align: right;
 }
 
+.center-text{
+    text-align: center;
+}
+
 /* Background Colors */
 
 .bg-three-color-header{
