@@ -123,16 +123,23 @@ a:hover{
     height: 320px;
 }
 
+.offer-icons{
+    padding-left: 5px;
+}
+
+.offer-header{
+    margin-bottom: 20px;
+}
+
+
 /* Contacts */
 
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
+.contact-header{
+    margin-bottom: 20px;
 }
 
 .contacts{
-    
+    padding: 3px;
 }
 
 .opening-times{
@@ -142,6 +149,12 @@ a:hover{
 .opening-times td{
     padding: 3px;
     border: #070707 1px solid;
+}
+
+.btn-primary{
+    margin-top: 100px;
+    background-color: rgba(124, 152, 179, 0.7);
+    border: #070707 2px solid;
 }
 
 /* Footer */
@@ -154,6 +167,18 @@ a:hover{
 }
 
 .footer-icon{
-
+    padding: 10px;
 }
 
+/* Menu */
+
+.selector-box{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Form */
+
+.form-container{
+    margin: 1rem;
+}
