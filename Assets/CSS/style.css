@@ -30,6 +30,10 @@ ul{
     text-align: right;
 }
 
+.justify-left-item{
+    text-align: right;
+}
+
 .center-text{
     text-align: center;
 }
@@ -38,6 +42,14 @@ ul{
 
 .bg-three-color-header{
     background-color: #ACCBE1;
+}
+
+.bg-three-color-body{
+    background-color: rgba(124, 152, 179, 0.7);
+}
+
+.bg-three-color-footer{
+    background-color: #536B78;
 }
 
 /* Header */
@@ -53,9 +65,10 @@ ul{
     border-bottom: 3px solid #070707;
 }
 
-.header-text{
-    font-family: 'Rubik Scribble', sans-serif;
+.header-text, .logo-text{
+    font-family: 'Rubik', sans-serif;
     font-size: 40px;
+    color: #070707;
 }
 
 li a{
@@ -98,3 +111,49 @@ a:hover{
 }
 
 /* Offers */
+
+.offers{
+    margin-top: 10px;
+    padding: 10px 20px;
+
+}
+
+.offer-image{
+    width: 430px;
+    height: 320px;
+}
+
+/* Contacts */
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.contacts{
+    
+}
+
+.opening-times{
+    margin: 20px;
+}
+
+.opening-times td{
+    padding: 3px;
+    border: #070707 1px solid;
+}
+
+/* Footer */
+
+.footer{
+    border-top: 3px solid #070707;
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+.footer-icon{
+
+}
+
