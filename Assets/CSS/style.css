@@ -1,13 +1,6 @@
 
 /* General Use */
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
-
-
 body{
     font-family: 'Mulish', sans-serif;
     margin:0;
@@ -38,6 +31,11 @@ ul{
     text-align: center;
 }
 
+.center-div{
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
 /* Background Colors */
 
 .bg-three-color-header{
@@ -63,6 +61,7 @@ ul{
     padding-top: 5px;
     padding-right: 8px;
     border-bottom: 3px solid #070707;
+    width: 100%;
 }
 
 .header-text, .logo-text{
@@ -164,6 +163,9 @@ a:hover{
     text-align: left;
     padding-top: 5px;
     padding-right: 8px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 .footer-icon{
@@ -172,13 +174,32 @@ a:hover{
 
 /* Menu */
 
+.menu-hero-image{
+    height: 787px;
+    width: 100%;
+}
+
 .selector-box{
     text-align: center;
-    margin-bottom: 25px;
+    margin: 25px 50px;
+}
+
+.menu-image{
+    width: 430px;
+    height: 320px;
 }
 
 /* Form */
 
 .form-container{
     margin: 1rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px){
+    .menu-image{
+        width: 215px;
+        height: 160px;
+    }
 }

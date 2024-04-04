@@ -20,7 +20,7 @@
             <div class="fluid-container bg-three-color-header logo">
                 <div class="row">
                     <div class="col-6">
-                        <img class="header-image inline" src="assets/Images/fish_PNG1160.png" alt="Mascot for the restaraunt" height="56" width="86">
+                        <a href="index.html"><img class="header-image inline" src="assets/Images/fish_PNG1160.png" alt="Mascot for the restaraunt" height="56" width="86"></a>
                         <h3 class="header-text inline">Ahab's Fine Dining</h3>
                     </div>
                     <div class="col-6">
@@ -40,43 +40,87 @@
             </div>
         </header>
         <section>
+            <h1 class="center-text">Our Menu</h1>
+            <p class="center-text">Since our establishment in 1998, Ahab's Fine Dining has prided itself on a carefully curated set of dishes that aim to provide our customers with whatever flavour of the briney deep takes their liking. 
+                Crushing on a crustacean? Failing for flounder? Or maybe you just wanna be shellfish for a day? No matter your inclination, 
+                there will almost certainly be something on our menu for you! Not feeling adventureous? 
+                That's fine as well for our fish and chips is famous in the local area and is bound to (Hopefully) be the best you've ever eaten. 
+                Take a gander down below and make sure you wipe your mouth often when you stare!</p>
+                <img class="menu-hero-image" src="Assets/Images/tungsten-rising-medium.jpg">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <div class="selector-box">
-                            <p>
-                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Starter</a>
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Mains</button>
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Desserts</button>
-                              </p>
-                              <div class="row">
-                                <div class="col-4">
-                                  <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                    <div class="card card-body">
-                                      Item name
-                                      Item Image
-                                      Item Description
+                            <div class="accordion" id="ahab-menu">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Starters" aria-expanded="true" aria-controls="Starters">
+                                        Our Starters - £5.95
+                                    </button>
+                                  </h2>
+                                  <div id="Starters" class="accordion-collapse collapse" data-bs-parent="#ahab-menu">
+                                    <div class="accordion-body bg-three-color-body">
+                                        <h4>Soup of the Day</h4>
+                                        <img class="menu-image" src="assets/Images/ella-olsson-fxJTl_gDh28-unsplash.jpg">
+                                        <p>A classic starter, our soup of the day is a refreshing way to start any meal. Completed with a roll of bread and butter. Ask in restaurant for that days option.</p>
+                                        <br>
+                                        <h4>Fish Cakes</h4>
+                                        <img class="menu-image" src="assets/Images/Fish_cakes_food_dinner.jpg">
+                                        <p>Our fish cakes are made with locally sourced potatoes and fresh cod from trusted farmers and fishermen. And with our homemade tartare sauce it’s guaranteed to be an absolute delight.</p>
+                                        <br>
+                                        <h4>Prawn Cocktail</h4>
+                                        <img class="menu-image" src="assets/Images/RFO-1400x919-PrawnCocktail-e1b7d9be-cc59-4f9d-a10e-dbf495ac6e2f-0-1400x919.jpg">
+                                        <p>While it may be passe by todays standards to some, our prawn cocktail with spring onion and chives combined with a Marie Rose sauce is certain to make such a classic feel fresh and new!</p>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-4">
-                                  <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                    <div class="card card-body">
-                                        Item name
-                                        Item Image
-                                        Item Description
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Mains" aria-expanded="false" aria-controls="Mains">
+                                      Our Mains - £12.95
+                                    </button>
+                                  </h2>
+                                  <div id="Mains" class="accordion-collapse collapse" data-bs-parent="#ahab-menu">
+                                    <div class="accordion-body bg-three-color-body">
+                                        <h4>Pasta and Prawns</h4>
+                                        <img class="menu-image" src="assets/Images/chilli-prawn-and-tomato-spaghetti-81914-1.jpeg">
+                                        <p>A simple dish of pasta and prawns mixed with parsley and chilli flakes. A delicious way to experience the fresh taste of the local prawn. It’s shrimply to die for!</p>
+                                        <br>
+                                        <h4>Crab Risotto</h4>
+                                        <img class="menu-image" src="assets/Images/Crab-and-saffron-risotto-3360182.jpg">
+                                        <p>Nothing beats a high-quality risotto. Our crab risotto uses saffron and other herbs to enhance the flavour to give you one of the best ways to enjoy a classic shellfish dish.</p>
+                                        <br>
+                                        <h4>Grilled Lobster</h4>
+                                        <img class="menu-image" src="assets/Images/grilled-lobster-tails-index-65c39e6ec822b.jpg">
+                                        <p>One of the most prestigious foods one could ever eat, our simple grilled lobster tail served with garlic butter proves that this iconic crustacean doesn’t need to be complicated to be thoroughly enjoyed.</p>
+                                        <br>
+                                        <h4>Fish and Chips</h4>
+                                        <img class="menu-image" src="assets/Images/Fish-and-Chips-FT-RECIPE1223-9a3cd514302d43c2bee77cd141bb80f5.jpg">
+                                        <p>No seafood restaurant worth it’s saltwater would go without this staple of English culture. Homemade fries and tartare sauce combined with a breaded cod is as classic a combo as you can get!</p>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-4">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample3">
-                                      <div class="card card-body">
-                                        Item name
-                                        Item Image
-                                        Item Description
-                                      </div>
-                                    </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Desserts" aria-expanded="false" aria-controls="Desserts">
+                                        Our Desserts - £5.95
+                                    </button>
+                                  </h2>
+                                  <div id="Desserts" class="accordion-collapse collapse" data-bs-parent="#ahab-menu">
+                                    <div class="accordion-body bg-three-color-body">
+                                        <h4>Fruit Kebab</h4>
+                                        <img class="menu-image" src="assets/Images/fruit-kebab-recipe.jpg">
+                                        <p>Sometimes after a filling meal you don’t want a lot but you still want something to satisfy a sugar craving. This simple dessert of various berries and melon pieces is perfect for when a sweet treat is all you want.</p>
+                                        <br>
+                                        <h4>Lemon Cheesecake</h4>
+                                        <img class="menu-image" src="assets/Images/Lemon-cheesecake_1200x800.jpg">
+                                        <p>Lemon has always been a common companion to seafood. But what if you just want to enjoy it solo? Well this delicious cream cheesecake will be sure to scratch that itch and leave you satisfied!</p>
+                                        <br>
+                                        <h4>Ice Cream</h4>
+                                        <img class="menu-image" src="assets/Images/ice-cream.jpg">
+                                        <p>One of the nicest ways to finish off a meal is a heaping helping of ice cream, and with 5 flavours to choose from including; vanilla, chocolate, mint, strawberry and butterscotch. You’ll certainly find a scoop you’ll love!</p>
                                   </div>
+                                </div>
                               </div>
                         </div>
                     </div>
@@ -87,7 +131,7 @@
             <div class="fluid-container bg-three-color-footer footer">
                 <div class="row">
                     <div class="col-6">
-                        <img class="header-image inline" src="assets/Images/fish_PNG1160.png" alt="Mascot for the restaraunt" height="56" width="86">
+                        <a href="index.html"><img class="header-image inline" src="assets/Images/fish_PNG1160.png" alt="Mascot for the restaraunt" height="56" width="86"></a>
                         <h3 class="header-text inline">Ahab's Fine Dining</h3>
                     </div>
                     <div class="col-6">
