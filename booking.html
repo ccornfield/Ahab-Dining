@@ -40,45 +40,117 @@
             </div>
         </header>
         <section>
-            <h3 class="center-text">Book now!</h3>
-            <form class="form-container">
-                <div class="mb-3">
-                    <label for="fname" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="fname" required>
-                </div>
-                <div class="mb-3">
-                    <label for="lname" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lname" required>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+            <form class="form-container center-div" action="https://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+
+                    <legend class="center-text">Book now!</legend>
+
+                    <div class="mb-3">
+                        <label for="fname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="fname" name="first-name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="lname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lname" name="last-name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" required>
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        How many adults?
+                        <select class="form-select" aria-label="adult-quanity" name="adult" required>
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                    </div>
+                    <div class="mb-3">
+                        How many under 18's?
+                        <select class="form-select" aria-label="teen-quanity" name="teenager">
+                            <option selected></option>
+                            <option value="0">Zero</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="mb-3">
+                        How many under 5's?
+                        <select class="form-select" aria-label="child-quanity" name="child">
+                            <option selected></option>
+                            <option value="0">Zero</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="startDate">What day would you like to eat with us on?</label>
+                        <input id="startDate" name="meal-date" class="form-control" type="date" required/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="eating-time"> What time would you like to arrive for?</label>
+                        <input type="time" id="eating-time" name="eating" min="9:00" max="20:00" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="birthday" name="birthday">
+                        <label class="form-check-label" for="birthday">Birthday?</label>
+                      </div>
+
+                      <div class="mb-3" id="terms">
+                        <h5 class="underline">OFFICIAL TERMS AND CONDITIONS</h5>
+                        <p><span class="bold">Contact: </span>
+                            Telephone lines are open between 9.00am – 8.00pm Tuesday to saturday. Please
+                            leave a message if we can’t answer immediately and we will return your call as
+                            soon as possible. Please note we are closed on Sunday – Monday.</p>
+            
+                        <p><span class="bold">Payment: </span>
+                            As soon as your details are recieved by this form we will send you a confirmation email to ensure that we will be able to accommodate you on the given dates and times. 
+                            All booking are paid for on the day in person.</p>
+            
+                        <p><span class="bold">Note: </span>
+                            We welcome children of all ageswho will enjoy our style of food. We do not offer a
+                            children’s menu. Please see our website for sample menus. We will prepare your food at a
+                            more appropriate portion size upon request.
+                        </p>
+            
+                        <p><span class="bold">Cancellation: </span>
+                            We kindly request that diners give us at least 48 hours notice if a
+                            cancellation or amendment is required (and should be notified by email including
+                            your booking reference). Only in the event of a late cancellation or a no-show will a
+                            charge be made. You will be liable to a full charge at £10pp.
+                        </p>
+                        <p><span>We kindly ask that groups are kept to a maximum of 4 due to capacity limitations in our restaraunt. Thank you.</span></p>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="conditions" required>
+                      <label class="form-check-label" for="terms">Terms and Conditions</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" target="_blank">Submit</button>
+                </fieldset>
               </form>
         </section>
         <footer>
             <div class="fluid-container bg-three-color-footer footer">
                 <div class="row">
-                    <div class="col-6">
-                        <a href="index.html"><img class="header-image inline" src="assets/Images/fish_PNG1160.png" alt="Mascot for the restaraunt" height="56" width="86"></a>
-                        <h3 class="header-text inline">Ahab's Fine Dining</h3>
-                    </div>
-                    <div class="col-6">
-                        <ul class="justify-right-item">
-                            <li class="header-text inline">
+                    <div class="col">
+                        <ul class="center-text">
+                            <li class="header-text inline footer-icon">
                                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
                            </li>
-                           <li class="header-text inline">
+                           <li class="header-text inline footer-icon">
                                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                            </li>
-                            <li class="header-text inline">
+                            <li class="header-text inline footer-icon">
                                <a href="https://www.pinterest.co.uk/"><i class="fa-brands fa-pinterest"></i></a>
+                           </li>
+                           <li class="header-text inline footer-icon">
+                            <a href="https://www.twitter.co.uk/"><i class="fa-brands fa-twitter"></i></a>
                            </li>
                        </ul>
                     </div>

@@ -43,10 +43,8 @@
             <div class="fluid-container bg-three-color-body">
                 <div class="row">
                     <div class="col hero-container">
-                        <div class="hero-image">
-                            <img src="assets/Images/mike-bergmann-medium.jpg" alt="The website's Hero Image">
-                        </div>
-                        <div class="hero-image-text">
+                        <div id="hero-image"></div>
+                        <div id="hero-image-text">
                             <h5>Welcome to (probably) the best seafood restaraunt in the world.</h5>
                         </div>
                     </div>
@@ -56,10 +54,10 @@
         <section>
             <div class="fluid-container offers">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <h3 class="center-text offer-header">Our Offers!</h3>
                         <div class="row">
-                            <div class="col-4 inline center-text">
+                            <div class="col-md-4 col-sm-12 inline center-text">
                                 <h4>Under 5's Eat free!<i class="fa-solid fa-child-reaching offer-icons"></i></h4>
                                 <img class="offer-image" src="Assets/Images/austin-pacheco-small.jpg">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum justo diam, volutpat tristique augue laoreet vitae. 
@@ -67,7 +65,7 @@
                                     Sed luctus laoreet ante eget semper. Duis finibus lorem tortor, eu pellentesque ligula tincidunt in. 
                                     Mauris mattis mi turpis, et finibus purus egestas quis. Sed ut eros ac nisi vulputate facilisis vitae mollis lectus.</p>
                             </div>
-                            <div class="col-4 inline center-text">
+                            <div class="col-md-4 col-sm-12 inline center-text">
                                 <h4>3 Course Meals for £20!<i class="fa-solid fa-fish offer-icons"></i></h4>
                                 <img class="offer-image" src="Assets/Images/caroline-attwood-small.jpg">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum justo diam, volutpat tristique augue laoreet vitae. 
@@ -75,7 +73,7 @@
                                     Sed luctus laoreet ante eget semper. Duis finibus lorem tortor, eu pellentesque ligula tincidunt in. 
                                     Mauris mattis mi turpis, et finibus purus egestas quis. Sed ut eros ac nisi vulputate facilisis vitae mollis lectus.</p>
                             </div>
-                            <div class="col-4 inline center-text">
+                            <div class="col-md-4 col-sm-12 inline center-text">
                                 <h4>2 for 1 on Craft Beer!<i class="fa-solid fa-beer-mug-empty offer-icons"></i></h4>
                                 <img class="offer-image" src="Assets/Images/bence-boros-small.jpg">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum justo diam, volutpat tristique augue laoreet vitae. 
@@ -89,13 +87,13 @@
             </div>
         </section>
         <section>
-            <div class="fliud-container ">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <h3 class="center-text contact-header">Reach out today!</h3>
                         <div class="row">
-                            <div class="col-4">
-                                <table class="center-text opening-times">
+                            <div class="col-md-4 col-sm-12">
+                                <table class="center-div opening-times ">
                                     <tr>
                                         <th></th>
                                         <th>Open</th>
@@ -137,12 +135,13 @@
                                         <td>Closed</td>
                                     </tr>	
                                     </table>
+                                    <br>
                             </div>
-                            <div class="col-4 center-text">
+                            <div class="col-md-4 col-sm-12 center-text">
                                 <h4 class="contacts">Contact Details</h4>
                                 <p><strong>Phone:</strong> 0500 567 2349<br><strong>Email:</strong> ahab-dining@outlook.co.uk</p>
                             </div>
-                            <div class="col-4 center-text">
+                            <div class="col-md-4 col-sm-12 center-text" id="map-button">
                                 <a href="https://www.google.com/maps" target="_blank"><button type="button" class="btn btn-primary">Click here to find us on Google Maps!</button></a>
                             </div>
                             </div>
@@ -155,12 +154,8 @@
         <footer>
             <div class="fluid-container bg-three-color-footer footer">
                 <div class="row">
-                    <div class="col-6">
-                        <a href="index.html"><img class="header-image inline" src="assets/Images/fish_PNG1160.png" alt="Mascot for the restaraunt" height="56" width="86"></a>
-                        <h3 class="header-text inline">Ahab's Fine Dining</h3>
-                    </div>
-                    <div class="col-6">
-                        <ul class="justify-right-item">
+                    <div class="col">
+                        <ul class="center-text">
                             <li class="header-text inline footer-icon">
                                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
                            </li>
@@ -169,6 +164,9 @@
                            </li>
                             <li class="header-text inline footer-icon">
                                <a href="https://www.pinterest.co.uk/"><i class="fa-brands fa-pinterest"></i></a>
+                           </li>
+                           <li class="header-text inline footer-icon">
+                            <a href="https://www.twitter.co.uk/"><i class="fa-brands fa-twitter"></i></a>
                            </li>
                        </ul>
                     </div>
