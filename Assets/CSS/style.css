@@ -251,6 +251,12 @@ form {
     width: 50%;
     padding: 10px;
 }
+
+/* 404 */
+#fixed{
+    position: fixed;
+}
+
 /* Media Queries */
 
 @media (max-width: 1280px){
@@ -291,4 +297,7 @@ form {
         display: none;
     }
 
+    .fa-twitter{
+        display:none
+    }
 }
