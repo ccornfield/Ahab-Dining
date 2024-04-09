@@ -199,7 +199,7 @@ a:hover{
 
 .menu-image{
     width: 430px;
-    height: 320px;
+    height: auto;
 }
 
 legend{
@@ -253,13 +253,42 @@ form {
 }
 /* Media Queries */
 
-@media (max-width: 576px){
+@media (max-width: 1280px){
+    .offer-image{
+        width: 305px;
+        height: 240px;
+    }
+}
+
+
+@media (max-width: 860px){
     .menu-image, .offer-image{
-        width: 215px;
+        width: 210px;
         height: 160px;
     }
 
     #hero-image-text{
         left: 20px;
     }
+    
+    .header-image{
+        display: inline;
+    }
+
+    li{
+        display: block;
+    }
+}
+
+@media (max-width: 280px){
+    #hero-image-text{
+        left: 10px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .menu-image{
+        display: none;
+    }
+
 }
