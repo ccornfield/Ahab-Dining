@@ -87,7 +87,7 @@ a:hover{
 }
 
 .active{
-    border-bottom: #fafafa 2px solid;
+    border-bottom: white 3px solid;
 }
 
 /* Hero Image */
@@ -112,7 +112,7 @@ a:hover{
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(124, 152, 179, 0.7);
+    background-color: rgba(124, 152, 179, 0.8);
     bottom:30px;
     left: 150px;
     position:absolute;
