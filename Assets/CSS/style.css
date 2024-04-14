@@ -274,8 +274,8 @@ form {
 
 @media (max-width: 860px){
     .menu-image, .offer-image{
-        width: 105px;
-        height: 80px;
+        width: 210px;
+        height: 160px;
     }
 
     #hero-image-text{
@@ -291,14 +291,7 @@ form {
     }
 }
 
-@media (max-width: 320px) {
-    .menu-image{
-        width: 210px;
-        height: 160px;
-    }
-}
-
-@media (max-width: 280px){
+@media (max-width: 400px){
     #hero-image-text{
         left: 10px;
         width: 250px;
