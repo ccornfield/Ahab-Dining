@@ -268,20 +268,20 @@ My loving and supportive family for supporting me in this endeavor.
 
 ### Image Credits
 
-https://unsplash.com/photos/orange-and-white-fish-on-white-and-black-pebbles-tHjXXy1kk_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
-https://unsplash.com/photos/shallow-focus-photography-of-two-boys-doing-wacky-faces-FtL07GM9Q7Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
-https://unsplash.com/photos/grilled-fish-cooked-vegetables-and-fork-on-plate-bpPTlXWTOvg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
-https://unsplash.com/photos/person-filling-clear-glass-with-liquid-8T5UAV6KkZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
-https://unsplash.com/photos/a-neon-sign-in-the-window-of-a-restaurant-6h04tpALqgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
-https://www.hiclipart.com/free-transparent-background-png-clipart-jaavm
-https://www.freepik.com/icon/fish_9164602
-https://unsplash.com/photos/soup-in-bowl-fxJTl_gDh28?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
-https://en.wikipedia.org/wiki/Fishcake
-https://realfood.tesco.com/recipes/prawn-cocktail.html
-https://www.taste.com.au/recipes/chilli-prawn-tomato-spaghetti/c6ab8078-1b4b-408a-9249-89ea428a2790
-https://www.bbcgoodfood.com/recipes/crab-saffron-risotto
-https://www.delish.com/cooking/recipe-ideas/a26883467/grilled-lobster-tail-recipe/
-https://www.foodandwine.com/fish-and-chips-6415583
-https://recipes.net/dessert/fruit-desserts/fruit-kebabs-recipe/
-https://www.giallozafferano.com/recipes/Lemon-cheesecake.html
-https://www.seriouseats.com/single-malt-scotch-vanilla-bean-ice-cream-recipe
+* https://unsplash.com/photos/orange-and-white-fish-on-white-and-black-pebbles-tHjXXy1kk_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://unsplash.com/photos/shallow-focus-photography-of-two-boys-doing-wacky-faces-FtL07GM9Q7Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://unsplash.com/photos/grilled-fish-cooked-vegetables-and-fork-on-plate-bpPTlXWTOvg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://unsplash.com/photos/person-filling-clear-glass-with-liquid-8T5UAV6KkZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://unsplash.com/photos/a-neon-sign-in-the-window-of-a-restaurant-6h04tpALqgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://www.hiclipart.com/free-transparent-background-png-clipart-jaavm
+* https://www.freepik.com/icon/fish_9164602
+* https://unsplash.com/photos/soup-in-bowl-fxJTl_gDh28?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+* https://en.wikipedia.org/wiki/Fishcake
+* https://realfood.tesco.com/recipes/prawn-cocktail.html
+* https://www.taste.com.au/recipes/chilli-prawn-tomato-spaghetti/c6ab8078-1b4b-408a-9249-89ea428a2790
+* https://www.bbcgoodfood.com/recipes/crab-saffron-risotto
+* https://www.delish.com/cooking/recipe-ideas/a26883467/grilled-lobster-tail-recipe/
+* https://www.foodandwine.com/fish-and-chips-6415583
+* https://recipes.net/dessert/fruit-desserts/fruit-kebabs-recipe/
+* https://www.giallozafferano.com/recipes/Lemon-cheesecake.html
+* https://www.seriouseats.com/single-malt-scotch-vanilla-bean-ice-cream-recipe
