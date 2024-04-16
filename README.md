@@ -2,7 +2,7 @@
 
 This is my Milestone 1 project. For this, I have decided to create a seafood restaraunt with a focus on appealing to families. In order to reach this aim I decided to keep the website simple and concise so that information can be accessed quickly. As mobile use has increased in recent years, I utilized a mobile first approach with fully responsive websites a design priority.
 
-![The homepage of the website](assets/images/readme/website-home-page.PNG)
+![The homepage of the website](assets/images/readme/website-home-page.png)
 
 [Click here to access the live website](https://ccornfield.github.io/Ahab-Dining/)
 
@@ -30,7 +30,7 @@ While I was not wholly sure of my target audience as I was going into this proje
 
 In order to check what demographics would be interested in seafood I decided to use AdTargeting in order to search for "Seafood" and gather marketing data that way. I discovered that "Seafood" was searched by primarily women (66%) within an age range of 35-44. Looking at the "Restaraunts" also showed similar data, with the percentage of woman in the demographic being somewhat lower but still the dominant gender (61%).
 
-![The top result on AdTargeting using the keyword "Seafood"](assets/images/readme/seafood-market-data.PNG)
+![The top result on AdTargeting using the keyword "Seafood"](assets/images/readme/seafood-market-data.png)
 
 ### Seafood Keyword Search
 
