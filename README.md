@@ -183,6 +183,42 @@ This is the custom 404 page used when a site element does not work as intended. 
 
 # Testing #
 
+While I was developing the website, I tested the website multiple times by making a change to the website and then opening up the file on my personal pc to make sure that the change worked as intended. Later into the project I started to push my changes more frequently and started to test my changes on the live site which proved to crucial in preventing critical errors in the code. Using Chrome Developer Tools I was able to consistently check if my web pages were apropriately responsive based on the height and width I was testing. I also tested my website on both google chrome and microsoft edge to make sure that it would work on multiple browsers.
+
+### Home Page Testing
+
+I tested the home page by making sure that the hero image was sized correctly, that all the links along the top were clickable along with sending people to the correct page and that the logo was also able to send people to the home screen from anywhere. At first I was using rubik puzzle for my text in the header, but I decided that it was clashing too much with the rest of the website along with being harder to read on smaller devices. Therefore it was replaced with rubik which worked out much better. Making sure that the underlining worked on all sites was important too, so that the user knew what site they were on at all times.
+
+An issue I had with the homepage for a substantial time was were a white bar would persist on the main page even after setting the body of the page to not have any padding or margins unless requested. This was corrected by specifically targetting rows in css and removing their left margins. This then led to a blue bar on the hero image where the image struggled to stretch across. This too was fixed by specifically targetting the right padding of the image and setting it to zero.
+
+![The code that fixed the first issue with the homepage.](assets/images/readme/right-margin-fix.png)
+
+![The code that fixed the second issue with the homepage.](assets/images/readme/right-padding-fix.png)
+
+An issue at first with the footers was that I forgot to make them open up onto a new page. This meant that click on the links would lead them to the website they clicked onto but on the same tab that they were using to open the website. Making it more cumbersome to explore links while also having to backtrack to the site each time. I was luckily able to notice this and corrected it without issue.
+
+### Menu Page Testing
+
+The bulk of menu testing was in the testing of responsiveness, chiefly the images. Quite often during testing the images would spill out of the accordion even on laptops and smaller desktops. At first the solution was to change the image sizes depening on what screen size was used. This was effective for the small desktops and mobiles but left things to be desired on mobile devices. The solution there ultimately became to just remove the images, this would boost performance and make it so the scroll from top to bottom is shorter, improving user experience.
+
+### Booking Page Testing
+
+Testing the booking page was done by making sure that the fields were labelled correctly, were able to be interacted with and were assigned as required were appropriate. All the elements worked as intended and the submit button linked to the correct page. The page was also responsive as it was able to change to still be readable even on smaller screen sizes.
+
+### 404 Page Testing
+
+The page was responsive and the link that redirected people back to the home page worked as designed.
+
+## Validator Testing
+
+### W3C Validator
+
+![The validator results for the HTML of my homepage](assets/images/readme/right-margin-fix.png)
+
+![The most common result for the validator](assets/images/readme/right-margin-fix.png)
+
+![The validator results for the HTML of my booking page](assets/images/readme/right-margin-fix.png)
+
 # Deployment #
 
 # Languages #
