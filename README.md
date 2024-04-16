@@ -100,8 +100,6 @@ For the typeface used for my project, the majority of the text used the mullish 
 ![Rubik, The font utilized almost exlusively in the header.](assets/images/readme/rubik-font.png)
 # Features #
 
-## Existing Features
-
 ### General
 
 I have successfully managed to make the website responsive, able to be viewed on both mobile and desktop devices without sacrificing aesthetic quality or site readability.
@@ -213,20 +211,78 @@ The page was responsive and the link that redirected people back to the home pag
 
 ### W3C Validator
 
-![The validator results for the HTML of my homepage](assets/images/readme/right-margin-fix.png)
+![The validator results for the HTML of my homepage](assets/images/readme/html-validator-homepage.png)
 
-![The most common result for the validator](assets/images/readme/right-margin-fix.png)
+When I put my Home Page through the validator I was quickly told my images lacked alt text. It also lacked a lang tag in the html head and had a section without content by telling to add a header to a section. However when I checked the section it was completely empty. There was another error telling me to have a button be the descendant of a hyperlink but since I wanted this button to redirect from the site I was unsure how to fix it without hampering functionality. 
 
-![The validator results for the HTML of my booking page](assets/images/readme/right-margin-fix.png)
+![The most common result for the validator](assets/images/readme/common-issue.png)
+
+The most common error I recieved on my menu page was the lack of alt text on the images. This was because alt text is used to aid in screenreaders relaying the information to a visually imparied reader. However, I feel like alt images on the pictures inside the accordion are not nessecary due to important details not being lost by their omission as demonstrated by how by viewing them on mobiles devices, they disappear and yet maintain clarity and readability.
+
+![The validator results for the HTML of my booking page](assets/images/readme/html-validator-booking.png)
+
+![The validator results for the CSS of my website](assets/images/readme/css-validator.png)
+
+When I put my CSS file through the validator I did not recieve any errors.
 
 # Deployment #
 
+In order to deploy my website, I used github pages. In order to use this service I had to do the following:
+
+1. Go into my project repository
+2. Click on the settings icon
+3. Click on the source drop down and select the option "Deploy from branch"
+4. In the branch drop down, select the option "main", this can be found in the root folder.
+5. Select the folder dropdown a
+6. Press the save button.
+7. After reloading you should see that the site is live.
+8. Click the visit site button or use the link provided to access the site at any time.
+
 # Languages #
+
+For the development of this website I utilized both HTML and CSS in order to create it. Bootstrap 5.3.3 was used to create the accordion and for it's grid system in laying out site features.
 
 # Media Queries #
 
+Media Queries were used exclusively in the role of increasing the responsiveness of web pages by adjusting their contents based on the maximum width of the screen.
+
 # Software #
+
+VS Code was used to create the website. It was the tool for typing out HTML and CSS code along with pushing site updates to the Github repository. Github and by extension Git was used to edit the website once it had been pushed to the repository while also being used to host the website and make it live.
+
+Balsamiq was used to create the wireframes saw earlier in this readme.
+
+The microsoft snipping tool was used to take the relevant screenshots.
 
 # Code #
 
+I had adapted [This bootstrap code](https://getbootstrap.com/docs/5.3/components/accordion/) to create the accordion that can be seen in the menu page. I had also used code from both the "Love Running" and "Coders Coffeehouse" for the hero image and form designs respectively.
+
+For the favicon I used [a generator](https://favicon.io/) in order to generate the files and code that was used to apply it to my entire site.
+
 # Credits #
+
+Code Institute for the opportunity to learn and hone the craft of developing websites.
+
+My loving and supportive family for supporting me in this endeavor.
+
+### Image Credits
+
+https://unsplash.com/photos/orange-and-white-fish-on-white-and-black-pebbles-tHjXXy1kk_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://unsplash.com/photos/shallow-focus-photography-of-two-boys-doing-wacky-faces-FtL07GM9Q7Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://unsplash.com/photos/grilled-fish-cooked-vegetables-and-fork-on-plate-bpPTlXWTOvg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://unsplash.com/photos/person-filling-clear-glass-with-liquid-8T5UAV6KkZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://unsplash.com/photos/a-neon-sign-in-the-window-of-a-restaurant-6h04tpALqgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://unsplash.com/photos/person-pouring-brown-liquid-on-clear-drinking-glass--Ygu9Qx309s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://www.hiclipart.com/free-transparent-background-png-clipart-jaavm
+https://www.freepik.com/icon/fish_9164602
+https://unsplash.com/photos/soup-in-bowl-fxJTl_gDh28?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+https://en.wikipedia.org/wiki/Fishcake
+https://realfood.tesco.com/recipes/prawn-cocktail.html
+https://www.taste.com.au/recipes/chilli-prawn-tomato-spaghetti/c6ab8078-1b4b-408a-9249-89ea428a2790
+https://www.bbcgoodfood.com/recipes/crab-saffron-risotto
+https://www.delish.com/cooking/recipe-ideas/a26883467/grilled-lobster-tail-recipe/
+https://www.foodandwine.com/fish-and-chips-6415583
+https://recipes.net/dessert/fruit-desserts/fruit-kebabs-recipe/
+https://www.giallozafferano.com/recipes/Lemon-cheesecake.html
+https://www.seriouseats.com/single-malt-scotch-vanilla-bean-ice-cream-recipe
