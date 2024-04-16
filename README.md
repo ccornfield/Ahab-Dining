@@ -89,15 +89,15 @@ While deciding on how to make my website, I opted to use balsamiq to create wire
 
 While demographics weren't an overwhelming concern at this time, considering I was mainly assuming a target audience of families, I based the color scheme of the website off of 3 dominant colors; White, Black and Blue. I changed up the shades of blue depending on their spot in the website in an effort to break up the colors to create a more appealing aesthetic. These cool blues also appeal to the chosen demographic as the tones provided make site navigation easy on the eyes.
 
-![The color scheme for the website.](assets/images/readme/color-scheme.PNG)
+![The color scheme for the website.](assets/images/readme/color-scheme.png)
 
 ### Typography
 
 For the typeface used for my project, the majority of the text used the mullish font. I chose this font because of it's clean shapes, making the text easier to read even on a smaller screen such as a phone. For the font used in the logo and the header buttons I decided to use rubik font. Originally I wanted to use the rubik puzzle font due to it appearing more akin to something one would see in a marine environment i.e. a pirate ship. It had to be scrapped however due to it being to aggressive on the eyes on smaller screens, making the buttons clunky to read and hampering site readability.
 
-![Mulish, the main font type used for the majority of the website.](assets/images/readme/mulish-font.PNG)
+![Mulish, the main font type used for the majority of the website.](assets/images/readme/mulish-font.png)
 
-![Rubik, The font utilized almost exlusively in the header.](assets/images/readme/mulish-font.PNG)
+![Rubik, The font utilized almost exlusively in the header.](assets/images/readme/rubik-font.png)
 # Features #
 
 ## Existing Features
@@ -114,70 +114,70 @@ The following favicon was created by first utilizing an image I found on freepik
 
 ## Home Page
 
-![Website home page](assets/images/readme/website-home-page.PNG)
+![Website home page](assets/images/readme/website-home-page.png)
 
 ### Header
 
-![Header for the home page](assets/images/readme/index-header.PNG)
+![Header for the home page](assets/images/readme/index-header.png)
 
 The header for my website went through multiple changes, such as the font that would be used, the color of the text and how it should be padded and margined as best give it the screen size needed to stand out. For this aspect of the project, I used the lightest blue in my color scheme, since I new that it would pop out when placed above an intended hero image. Originally it was going to be fixed to where the user was on the page however this was changed due to both the pages of the site being short in length thus removing the need for a peristent header and also due to issues with the header covering large portions of the hero image that would make it appear amateur.
 
 ### Hero Image
 
-![Hero image displayed on the home page](assets/images/readme/index-hero-image.PNG)
+![Hero image displayed on the home page](assets/images/readme/index-hero-image.png)
 
 When I was researching how to design my website by looking at the works of colleagues and other restaraunts, 4/5 of them had utilized some kind of hero image in order to grab the readers attention before anything else. Such a hero image could easily inform the reader exactly what kind of site it is before they continue. While developing the hero image, I made sure that at all screen sizes it could be easily read and understood by remaining centralized in it's container.
 
 ### Offers
 
-![The offers listed on the home page](assets/images/readme/index-offers.PNG)
+![The offers listed on the home page](assets/images/readme/index-offers.png)
 
 One of the main goals of the site that I wanted to successfully achieve was by using it to update customers on the offers that are currently taking place at the store. One solution could have been a revolving gallery that slowly scrolled through them but this would have taken too much time to implement for such a simple project. My solution was to use the bootstrap column system to give each image it's own column at 4-4-4 and to then merge them together once the screen size was small enough so that they could follow one after another for a seamless reading experience.
 
 ### Contact Details
 
-![The contact details provided on the index page](assets/images/readme/index-contact-details.PNG)
+![The contact details provided on the index page](assets/images/readme/index-contact-details.png)
 
 Another of the core goals that I had attempted to achieve with this site was to allow customers how to find out how to both contact and reach the owners of the website. While creating the tables for opening times was simple as was creating the contacts for email and phone, trying to implement google maps was tricky. I didn't have the resources to create an api to have google maps appear directly on the page so my workaround for this was to create a button that hyperlinked to a google maps search result for a nearby seafood restaraunt. I wanted these details to be cleanly presented so that customers would be able to find the restaraunt before engaging further e.g. browsing the menu and booking a table.
 
 ### Footer
 
-![The footer for the website](assets/images/readme/home-page-footer.PNG)
+![The footer for the website](assets/images/readme/home-page-footer.png)
 
 This footer was inspired by the portfolios of other code institute learners. After making the wireframe and testing I decided that I didn't like having the footer the exact same as the header, and so I opted for a design that consisted entirely of the relevant social media links laid out in a line in the footer. All the links open out onto a new tab as to improve user experience. Making them change color on hover was a decision made to help make sure users knew what site they would be going onto when they clicked the button.
 
 ## Menu Page
 
-![The menu page of the website](assets/images/readme/menu-page.PNG)
+![The menu page of the website](assets/images/readme/menu-page.png)
 
 ### Title and Image
 
-![The hero image of the menu page](assets/images/readme/menu-hero-image.PNG)
+![The hero image of the menu page](assets/images/readme/menu-hero-image.png)
 
 While admittedly not something I saw on my research examples, I felt like by just having an accordion in the space, the page would feel empty and invite a feeling of hostility. To rectify this, I added a small welcoming blurb to the page along with another hero image that wasn't as elaborate as the home page to make the space feel more lived in. All image credits can be found in the credit section of this readme.
 
 ### Accordion
 
-![The accordion featuring all the menu items.](assets/images/readme/menu-accordion.PNG)
+![The accordion featuring all the menu items.](assets/images/readme/menu-accordion.png)
 
-![An example of how the menu items in the accordion are structured.](assets/images/readme/menu-accordion-item.PNG)
+![An example of how the menu items in the accordion are structured.](assets/images/readme/menu-accordion-item.png)
 
 An accordion was chosen in order to be efficient with screen space. Earlier versions of the site attempted to use a folder system to make it open up to left and right while pressing one button would close all others. This didn't work in practice so the accordion was used instead since it would also be easier to make responsive as you would only need to adjust it's width to fit the screen. Inside the accordion the menu was structed by using a title which was the name of the menu item, an image of the item sourced online, the blurb for it and a page break to seperate blurbs from titles. On smaller screens there would often be an issue of image overspill where the images used would break out of the accordion and spill onto the rest of the page. This was fixed by making the images in the accordion invivisble on devices below 400px in width.
 
 ## Form Page
 
-![The form page of the website.](assets/images/readme/form-page.PNG)
+![The form page of the website.](assets/images/readme/form-page.png)
 
 ### Form
 
-![The form used to book meals on the website](assets/images/readme/form.PNG)
+![The form used to book meals on the website](assets/images/readme/form.png)
 
 The form was designed to achieve the most important goal of the site; To allow customers to book online after being enticed by the rest of the user experience they'd had thus far. The form was kept to asking only the most important questions that a restaraunt would want to know. First the full name and email is gathered as means to get back in touch with the customer. Then how many patrons are asked for so that the user can input as many people as allowed due to the implication that this is a small local restaraunt. Then the date and time are asked for. There is currently a bug where the user can input dates that have happened in the past however this can be fixed in a future update by using javascript.
 Finally, the user is asked if the occassion is a birthday or not before they are asked to read the terms and conditions then accept them and submit the form which takes them to a code institute formdump where the inputs are readback to them. Future versions of the site will go to an actual server where these details can be stored and called upon as needed.
 
 ## 404
 
-![The 404 page used when a site aspect doesn't work.](assets/images/readme/404.PNG)
+![The 404 page used when a site aspect doesn't work.](assets/images/readme/404.png)
 
 This is the custom 404 page used when a site element does not work as intended. The user will be redirected here where it will clearly explain what the error is, what has happened, and then provide a clear and easy way to return to the home screen. This was important to me since I felt that if the user was sent to the default 404 page they would be put off by the site and not want to come back. A custom 404 would soften this blow and make them more likely to give the site a second chance.
 
