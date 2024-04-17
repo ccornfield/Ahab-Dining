@@ -244,7 +244,9 @@ In order to deploy my website, I used github pages. In order to use this service
 
 # Languages #
 
-For the development of this website I utilized both HTML and CSS in order to create it. Bootstrap 5.3.3 was used to create the accordion and for it's grid system in laying out site features.
+* For the development of this website I utilized both HTML and CSS in order to create it. 
+
+* Bootstrap 5.3.3 was used to create the accordion and for it's grid system in laying out site features.
 
 # Media Queries #
 
