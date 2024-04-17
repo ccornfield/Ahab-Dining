@@ -217,7 +217,7 @@ When I put my Home Page through the validator I was quickly told my images lacke
 
 ![The most common result for the validator](assets/images/readme/common-issue.png)
 
-The most common error I recieved on my menu page was the lack of alt text on the images. This was because alt text is used to aid in screenreaders relaying the information to a visually imparied reader. However, I feel like alt images on the pictures inside the accordion are not nessecary due to important details not being lost by their omission as demonstrated by how by viewing them on mobiles devices, they disappear and yet maintain clarity and readability.
+The most common error I recieved on my menu page was the lack of alt text on the images. This was because alt text is used to aid in screenreaders relaying the information to a visually imparied reader. However, I feel like alt images on the pictures inside the accordion are not nessecary due to important details not being lost by their omission as demonstrated by how by viewing them on mobiles devices, they disappear and yet maintain clarity and readability. So I resolved this bug by adding blank alt tags to the images.
 
 ![The validator results for the HTML of my booking page](assets/images/readme/html-validator-booking.png)
 
