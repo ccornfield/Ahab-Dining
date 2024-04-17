@@ -221,9 +221,13 @@ The most common error I recieved on my menu page was the lack of alt text on the
 
 ![The validator results for the HTML of my booking page](assets/images/readme/html-validator-booking.png)
 
+With my booking page, most of the errors were from how I have done my options. The error relating to the first option with required was one that I could not figure out how to address after multiple attempts to troubleshoot. I could not understand the size or multiple attributes, and the only way I could think to potentially solve it would be to give the options label tags but this would need to be tested in a future version of the website. The other errors included placing a target blank attribute onto a submit button and mismatching the for and id attributes on the Terms & Conditions div.
+
 ![The validator results for the CSS of my website](assets/images/readme/css-validator.png)
 
 When I put my CSS file through the validator I did not recieve any errors.
+
+As of the time of writing, most if not all bugs found by the validators have been corrected within reason. Images were provided blank alt tags and other errors have been fixed where the solution does not require javascript.
 
 # Deployment #
 
